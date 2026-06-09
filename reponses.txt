@@ -1,0 +1,7 @@
+1. l'erreur est "can't instantiate abstract class LivraisonColisExpress" survient a la construction de l'objet 
+
+2.elle ne peut pas etre instancier car il lui manque une methode a implementer 
+
+3.le mecanisme de classe abstraite ; en effet la sous classe qui n'implemente pas toutes les methode abstraite devient une classe abstraite 
+
+4.a ca moment l'erreur suviendrait a l'appel de la methode; la detection a la construction est preferable car on y detecte les probleme a l'ecriture et nona l'execution
